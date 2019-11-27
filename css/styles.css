@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/*
+Author: Kelley Fischer
+Date: 11/16/19
+
+
+*/
+
+
+/* HTML & Body Styles */
+
+html {
+  font-family: Candara, Verdana, sans-serif;
+  font-variant: small-caps;
+  background: -moz-linear-gradient(to bottom right, #FFC3C3, #F9B429);
+  background: -webkit-linear-gradient(to bottom right, #FFC3C3, #F9B429);
+  background: linear-gradient(to bottom right, #FFC3C3, #F9B429);
+}
+
+body {
+  min-width: 640px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header/Heading Styles */
+
+header {
+  background: -moz-linear-gradient(to bottom right, #57C9C9, #199696);
+  background: -webkit-linear-gradient(to bottom right, #57C9C9, #199696);
+  background: linear-gradient(to bottom right, #57C9C9, #199696);
+  min-height: 10vh;
+}
+
+header h1 {
+  font: small-caps 4em Impact, Arial, sans-serif;
+  padding-left: 20px;
+  padding-top: 5px;
+
+  text-shadow: 3px 3px 2px #F92929;
+  -webkit-text-fill-color: #FFCF6E;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #BAF3F3
+}
+
+header h1 a {
+  text-decoration: none;
+  text-shadow: 3px 3px 2px #F92929;
+  -webkit-text-fill-color: #FFCF6E;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #BAF3F3
+}
+
+
+.heading {
+  text-align: center;
+  background: -moz-linear-gradient(to bottom right, #57C9C9, #199696);
+  background: -webkit-linear-gradient(to bottom right, #57C9C9, #199696);
+  background: linear-gradient(to bottom right, #57C9C9, #199696);
+  margin-top: 0px;
+  padding: 10px;
+
+  font-size: 1.5em;
+  text-shadow: 3px 3px 2px #F92929;
+  -webkit-text-fill-color: #FFCF6E;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #BAF3F3
+}
+
+
+/* Navigation Styles */
+
+.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF6E6E;
+}
+
+.horizontal li {
+  float: left;
+}
+
+.horizontal li a {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.horizontal li a:link, .horizontal li a:visited {
+  color: #F9B429;
+}
+
+.horizontal li a:hover, .horizontal li a:active {
+  color: #F92929;
+  background-color: #FFCF6E;
+}
+
+
+/* Main & Aside Styles */
+
+aside {
+  float: right;
+  width: 30%;
+}
+
+main {
+  float: left;
+  width: 60%;
+  background-color: #FFEBC3;
+  margin-top: 10px;
+}
+
+/* Menu Form Styles */
+
+div.orderForm {
+  margin: 7px 0px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+fieldset {
+  border: none;
+}
+
+.getFood {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+.getFood > label {
+  border-top: 1px solid black;
+}
+
+
+/* Customer Info Form Styles */
+
+.custData {
+  margin: 7px 0px;
+  padding: 5px 15px;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+div.custData > * {
+  -webkit-flex: 1 1 150px;
+  flex: 1 1 150px;
+}
+
+
+/* Button Styles */
+
+#button {
+  color: red;
+}
+
+/* Footer Styles */
+
+footer {
+  clear: left;
+  background: #FFCF6E;
+  min-height: 50px;
+}
+
+footer::after{
+  clear: both;
+  content: "";
+  display: table;
+}
