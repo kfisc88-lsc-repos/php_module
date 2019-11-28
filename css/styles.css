@@ -207,11 +207,6 @@ form#customerForm {
   display: table;
 }
 
-form#customerForm input {
-  width: 100%;
-}
-
-
 /* Customer Info Form Styles */
 
 .custData {
@@ -237,7 +232,7 @@ div.custData > * {
     padding: 5px;
 }
 
-#submit_button {
+.submit_button {
     margin-left: 20px;
 }
 

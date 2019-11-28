@@ -61,7 +61,7 @@
       </div>
     </fieldset>
 
-    <input type="button" class="button" id="submit_button" value="Submit" onclick="processOrder();" />
+    <input type="button" class="button submit_button" value="Submit" onclick="processOrder();" />
     <h3 id="total">Your total is: $0.00</h3>
   </form>
 </main>
