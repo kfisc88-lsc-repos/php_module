@@ -28,7 +28,7 @@
 <h3><?php
   if($custFirstName <> "") {
     echo $custFirstName;
-    echo $custLastName;
+    echo $custLastName; 
     echo $custAddr1;
     echo $custAddr2;
     echo $custCity;
