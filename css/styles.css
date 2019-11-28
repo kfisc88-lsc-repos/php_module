@@ -202,8 +202,9 @@ legend.custData {
 /* PHP Form CSS */
 
 form#customerForm {
-  width: 450px;
+  width: 100%;
   padding: 12px 8px;
+  display: table;
 }
 
 form#customerForm input {
