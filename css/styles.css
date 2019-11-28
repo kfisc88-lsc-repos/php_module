@@ -199,6 +199,17 @@ legend.custData {
     margin-bottom: 15px;
 }
 
+/* PHP Form CSS */
+
+form#customerForm {
+  width: 450px;
+  padding: 12px 8px;
+}
+
+form#customerForm input {
+  width: 100%;
+}
+
 
 /* Customer Info Form Styles */
 
